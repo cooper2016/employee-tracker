@@ -78,3 +78,7 @@ const addEmployee = [
     name: "manager",
   },
 ];
+
+const init = () => {
+  inq.prompt(home).then((data) => {});
+};
